@@ -1,10 +1,6 @@
 {
   "expo": {
-<<<<<<< HEAD
-    "name": "OCD",
-=======
     "name": "ocd-app",
->>>>>>> 461998b (Initial commit)
     "slug": "ocd-app",
     "scheme": "ocd-app",
     "version": "1.0.0",
@@ -12,14 +8,19 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "ios": {
-<<<<<<< HEAD
-=======
       "bundleIdentifier": "ocd-app",
->>>>>>> 461998b (Initial commit)
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "edgeToEdgeEnabled": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8f26c99d-70f8-4ea0-ba9c-80e280eb16ac"
+      }
     }
   }
 }
