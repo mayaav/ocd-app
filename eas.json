@@ -1,12 +1,23 @@
 {
   "cli": {
-    "version": ">= 3.16.0"
+    "version": ">= 16.13.2",
+    "appVersionSource": "remote"
   },
   "build": {
-    "production": {
-      "developmentClient": false,
+    "development": {
+      "developmentClient": true,
       "distribution": "internal",
+      "node": "18",
+      "npm": "9",
+      "packageManager": "npm"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true,
       "node": "18.20.2",
+      "distribution": "internal",
       "env": {
         "EXPO_USE_LEGACY_PEER_DEPS": "1"
       }
