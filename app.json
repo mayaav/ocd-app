@@ -1,6 +1,10 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "OCD",
+=======
+    "name": "ocd-app",
+>>>>>>> 461998b (Initial commit)
     "slug": "ocd-app",
     "scheme": "ocd-app",
     "version": "1.0.0",
@@ -8,6 +12,10 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "ios": {
+<<<<<<< HEAD
+=======
+      "bundleIdentifier": "ocd-app",
+>>>>>>> 461998b (Initial commit)
       "supportsTablet": true
     },
     "android": {
