@@ -11,7 +11,8 @@
       "bundleIdentifier": "ocd-app",
       "supportsTablet": true,
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCalendarsUsageDescription": "This app uses your calendar to create and manage events."
       }
     },
     "android": {
