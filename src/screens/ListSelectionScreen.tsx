@@ -135,10 +135,7 @@ export const ListSelectionScreen: React.FC<ListSelectionScreenProps> = ({ onSele
             delayLongPress={400}
           >
             <View className={cn("rounded-3xl p-6 shadow-lg relative", list.color)}>
-              {/* Long Press Hint - Top Right */}
-              <View className="absolute top-4 right-4 px-2 py-1 bg-black/20 rounded-full">
-                <Text className="text-white text-xs font-bold">📱 Hold</Text>
-              </View>
+
 
               <View className="flex-row items-center justify-between mb-4 pr-16">
                 <View className="flex-row items-center flex-1">
