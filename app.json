@@ -3,7 +3,7 @@
     "name": "ocd-app",
     "slug": "ocd-app",
     "scheme": "ocd-app",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.png"
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
