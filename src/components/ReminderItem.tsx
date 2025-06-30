@@ -128,12 +128,7 @@ export const ReminderItem: React.FC<ReminderItemProps> = ({
             </View>
           </View>
 
-          {/* Long Press Hint */}
-          <View className="px-3 py-1 bg-gray-100 rounded-full ml-3">
-            <Text className="text-gray-500 text-xs font-bold">
-              📱 Hold
-            </Text>
-          </View>
+          
         </Pressable>
       </Animated.View>
 

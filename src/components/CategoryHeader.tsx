@@ -59,12 +59,7 @@ export const CategoryHeader: React.FC<CategoryHeaderProps> = ({
             </Text>
           </View>
           
-          {/* Long Press Hint */}
-          <View className="px-3 py-2 bg-blue-100 rounded-full">
-            <Text className="text-blue-700 text-xs font-bold">
-              📱 Hold to edit
-            </Text>
-          </View>
+         
         </View>
       </Pressable>
     </Animated.View>
